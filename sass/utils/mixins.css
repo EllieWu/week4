@@ -1,0 +1,158 @@
+@media (max-width: 767px) {
+  .container {
+    max-width: 720px;
+  }
+  .banner {
+    background-size: 768px 787px;
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png");
+    height: 787px;
+  }
+  .homeSection-box .content .item {
+    width: 48%;
+  }
+  .homeSection-box .content .mb48 {
+    margin-bottom: 48px;
+  }
+  .sectionContent .contentImg .content-item {
+    width: 100%;
+  }
+  .sectionContent .contentImg .content-item .mb24 {
+    margin-bottom: 24px;
+  }
+  .content-glasses {
+    background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg-sm.png");
+    height: 960px;
+  }
+  .content-glasses .glasses-box {
+    justify-content: center;
+  }
+  .content-glasses .glasses-box .glasses-item img {
+    width: 696px;
+  }
+  .content-glasses .glasses-box .mb24 {
+    margin-bottom: 24px;
+  }
+  .customer-item-box {
+    display: flex;
+    width: 48%;
+    justify-content: center;
+  }
+  .customer-item-box .customer-img img {
+    width: 336px;
+  }
+  .mb24 {
+    margin-bottom: 24px;
+  }
+  .contact-box .contact-form {
+    width: 576px;
+  }
+  .contact-box .contact-form p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .contact-box .contact-form input {
+    width: 576px;
+  }
+  .contact-box .contact-form textarea {
+    width: 576px;
+  }
+  .contact-box .contact-form .click-btn {
+    padding: 16px 136px;
+  }
+}
+@media (max-width: 374px) {
+  .header .headerMenu ul {
+    display: none;
+  }
+  .container {
+    width: 347px;
+  }
+  .banner {
+    background-size: 375px 396px;
+    height: 396px;
+  }
+  .banner .bannerTextBox {
+    padding-top: 144px;
+  }
+  .banner .bannerTextBox h1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .banner .bannerTextBox p {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .homeSection-box .homeSection {
+    padding: 40px 0;
+  }
+  .homeSection-box .homeSection h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .homeSection-box .content .item {
+    width: 100%;
+  }
+  .homeSection-box .mb48 {
+    margin-bottom: 48px;
+  }
+  .sectionContent {
+    margin-bottom: 48px;
+  }
+  .sectionContent .contentImg .content-item img {
+    width: 348px;
+  }
+  .sectionContent h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .content-glasses {
+    height: 820px;
+    padding-top: 40px;
+  }
+  .content-glasses h2 {
+    padding-top: 0;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+  .content-glasses .glasses-box .glasses-item img {
+    width: 348px;
+    height: 240px;
+  }
+  .customer {
+    margin-bottom: 40px;
+  }
+  .customer h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .customer .customer-box {
+    margin-bottom: 0;
+  }
+  .customer .customer-box .customer-item-box {
+    margin-bottom: 16px;
+    width: auto;
+  }
+  .customer .customer-box .customer-item-box .customer-img img {
+    width: 348px;
+  }
+  .contact-box {
+    padding-top: 40px;
+  }
+  .contact-box h2 {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 24px;
+  }
+  .contact-box .contact-form {
+    width: 348px;
+  }
+  .contact-box .contact-form input {
+    width: 348px;
+    padding: 6px 0;
+  }
+  .contact-box .contact-form textarea {
+    width: 348px;
+    padding: 6px 0;
+  }
+}/*# sourceMappingURL=mixins.css.map */

@@ -1,0 +1,61 @@
+.banner {
+  background-size: 1920px 787px;
+  background: rgb(241, 176, 176);
+  height: 787px;
+}
+.banner .bannerTextBox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 296px;
+}
+.banner .bannerTextBox p {
+  font-size: 64px;
+  line-height: 96px;
+  color: #650300;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.banner .bannerTextBox h1 {
+  font-size: 36px;
+  line-height: 54px;
+  color: #650300;
+}
+.banner .bannerTextBox a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 6px 12px;
+  background: #AA0601;
+}
+
+.homeSection-box {
+  background: #FBF2F2;
+}
+.homeSection-box .homeSection h2 {
+  font-size: 48px;
+  line-height: 72px;
+  color: #650300;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 80px;
+  margin-bottom: 33px;
+}
+.homeSection-box .content {
+  display: flex;
+}
+.homeSection-box .content .item {
+  width: 25%;
+}
+.homeSection-box .content .itemUp {
+  text-align: center;
+}
+.homeSection-box .content .itemUp img {
+  width: 100px;
+  margin-bottom: 25px;
+}
+.homeSection-box .content .itemUp p {
+  font-size: 24px;
+  line-height: 36px;
+  color: #650300;
+  font-weight: bold;
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,26 @@
+.header {
+  background-color: #AA0601;
+}
+.header .header-box {
+  display: flex;
+  justify-content: space-between;
+}
+.header .header-box .headerLogo img {
+  margin-top: 16px;
+  margin-bottom: 15.43px;
+}
+.header .headerMenu {
+  display: flex;
+}
+.header .headerMenu ul {
+  display: flex;
+  align-items: center;
+  width: 428px;
+  justify-content: space-between;
+}
+.header .headerMenu ul li a {
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=header.css.map */
