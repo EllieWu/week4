@@ -301,56 +301,56 @@ body {
   .faq-ans {
     margin-bottom: 24px;
   }
-}
-.footer {
-  padding-top: 24px;
-}
-.footer .footerNav {
-  padding-bottom: 24px;
-  border-bottom: 1px solid white;
-  margin-bottom: 16px;
-}
-.footer .footerNav .menu {
-  display: none;
-}
-.footer .footerNav .menuImg {
-  justify-content: flex-end;
-  width: 100px;
-  height: 54px;
-}
-.footer .footerNav .menuImg img {
-  width: 24px;
-}
-.footer .footerNav .footerContact-m li {
-  margin-bottom: 8px;
-}
-.footer .footerNav .footerContact-m li i {
-  color: white;
-}
-.footer .footerNav .footerContact-m li a {
-  text-decoration: none;
-  color: white;
-}
-.footer .footerContent {
-  display: none;
-}
-.footer .footerContent a {
-  font-size: 16px;
-  line-height: 24px;
-}
-.footer .footerContent .font-awesome {
-  font-size: 24px;
-}
-.footer .footerCopyright {
-  flex-direction: column;
-  align-items: flex-start;
-}
-.footer .footerCopyright p {
-  margin-bottom: 8px;
-}
-.footer .footerCopyright .copyright-ul {
-  flex-direction: column;
-}
-.footer .footerCopyright .copyright-ul li {
-  margin-bottom: 8px;
+  .footer {
+    padding-top: 24px;
+  }
+  .footer .footerNav {
+    padding-bottom: 24px;
+    border-bottom: 1px solid white;
+    margin-bottom: 16px;
+  }
+  .footer .footerNav .menu {
+    display: none;
+  }
+  .footer .footerNav .menuImg {
+    justify-content: flex-end;
+    width: 100px;
+    height: 54px;
+  }
+  .footer .footerNav .menuImg img {
+    width: 24px;
+  }
+  .footer .footerNav .footerContact-m li {
+    margin-bottom: 8px;
+  }
+  .footer .footerNav .footerContact-m li i {
+    color: white;
+  }
+  .footer .footerNav .footerContact-m li a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer .footerContent {
+    display: none;
+  }
+  .footer .footerContent a {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .footer .footerContent .font-awesome {
+    font-size: 24px;
+  }
+  .footer .footerCopyright {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer .footerCopyright p {
+    margin-bottom: 8px;
+  }
+  .footer .footerCopyright .copyright-ul {
+    flex-direction: column;
+  }
+  .footer .footerCopyright .copyright-ul li {
+    margin-bottom: 8px;
+  }
 }/*# sourceMappingURL=all.css.map */
