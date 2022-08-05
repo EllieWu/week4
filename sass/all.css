@@ -96,256 +96,31 @@ body {
   color: white;
 }
 
-.banner {
-  background-size: 1920px 787px;
-  background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png");
-  height: 787px;
-}
-.banner .bannerTextBox {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  padding-top: 296px;
-}
-.banner .bannerTextBox p {
-  font-size: 64px;
-  line-height: 96px;
-  color: #650300;
-  font-weight: bold;
-  margin-bottom: 4px;
-}
-.banner .bannerTextBox h1 {
-  font-size: 36px;
-  line-height: 54px;
-  color: #650300;
-}
-.banner .bannerTextBox a {
-  text-decoration: none;
-  color: #FFFFFF;
-  padding: 6px 12px;
-  background: #AA0601;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.homeSection-box {
-  background: #FBF2F2;
-}
-.homeSection-box .homeSection {
-  padding: 80px 0px;
-}
-.homeSection-box .homeSection h2 {
+.faq h2 {
   font-size: 48px;
   line-height: 72px;
-  color: #650300;
-  text-align: center;
   font-weight: bold;
-  margin-bottom: 33px;
+  padding-left: 16px;
+  border-left: 8px solid #9F1213;
+  margin-top: 96px;
+  margin-bottom: 32px;
 }
-.homeSection-box .content {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.homeSection-box .content .item {
-  width: 24%;
-}
-.homeSection-box .content .item .itemUp {
-  text-align: center;
-}
-.homeSection-box .content .item .itemUp img {
-  width: 100px;
-  margin-bottom: 24px;
-}
-.homeSection-box .content .item .itemUp p {
+.faq-p {
   font-size: 24px;
   line-height: 36px;
-  color: #650300;
   font-weight: bold;
-  margin-bottom: 8px;
-}
-.homeSection-box .content .item .itemText {
-  font-size: 16px;
-  line-height: 24px;
-}
-.homeSection-box .content .mr0 {
-  margin-right: 0;
-}
-
-.sectionContent {
-  margin-bottom: 80px;
-}
-.sectionContent h2 {
-  font-size: 48px;
-  line-height: 72px;
-  color: #650300;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 80px;
-  margin-bottom: 48px;
-}
-.sectionContent .contentImg {
-  display: flex;
-  flex-wrap: wrap;
-}
-.sectionContent .contentImg .content-item {
-  width: 33.3%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.sectionContent .contentImg .content-item img {
-  margin-bottom: 8px;
-  width: 416px;
-}
-.sectionContent .contentImg .content-item p {
-  font-size: 48px;
-  line-height: 72px;
-  color: #AA0601;
-  text-align: center;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.content-glasses {
-  margin-bottom: 80px;
-  background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/index-bg.png");
-  height: 608px;
-  background-size: cover;
-}
-.content-glasses .glasses-box {
-  display: flex;
-  flex-wrap: wrap;
-}
-.content-glasses h2 {
-  font-size: 48px;
-  line-height: 72px;
-  color: #FFFFFF;
-  text-align: center;
-  padding-top: 80px;
-  margin-bottom: 48px;
-  font-weight: bold;
-}
-.content-glasses .glasses-item img {
-  width: 648px;
-}
-.content-glasses .glasses-item p {
-  font-size: 48px;
-  line-height: 72px;
-  color: #AA0601;
-  text-align: center;
-  background: #FFFFFF;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.customer {
-  margin-bottom: 80px;
-}
-.customer .customer-box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 80px;
-}
-.customer h2 {
-  font-size: 48px;
-  line-height: 72px;
-  color: #650300;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 48px;
-}
-.customer .customer-item {
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);
-}
-.customer .customer-item img {
-  width: 306px;
-}
-.customer .customer-text {
-  height: 173px;
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.customer .customer-text .date {
-  font-size: 14px;
-  line-height: 21px;
-  color: #707070;
-}
-.customer .name {
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.contact-box {
-  background: #FBF2F2;
-  padding-top: 80px;
-  padding-bottom: 80px;
-}
-.contact-box h2 {
-  font-size: 48px;
-  line-height: 72px;
-  color: #650300;
-  text-align: center;
-  font-weight: bold;
-  margin-bottom: 48px;
-}
-.contact-box .contact-form {
-  width: 636px;
-  margin: 0 auto;
-}
-.contact-box .contact-form p {
-  font-size: 20px;
-  line-height: 30px;
   margin-bottom: 24px;
 }
-.contact-box .contact-form li {
+.faq-title {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.faq-ans {
   font-size: 16px;
   line-height: 24px;
-}
-.contact-box .contact-form input {
-  width: 636px;
-  background-color: transparent;
-  border: 1px solid #000000;
-  padding: 6px 12px;
-  margin-top: 8px 0px 16px 0px;
-  margin-top: 8px;
-  margin-bottom: 16px;
-}
-.contact-box .contact-form textarea {
-  width: 636px;
-  background-color: transparent;
-  border: 1px solid #000000;
-  padding: 6px 12px;
-  margin-top: 8px 0px 16px 0px;
-  margin-top: 8px;
-  margin-bottom: 16px;
-}
-.contact-box .contact-form .checkbox-li {
-  display: flex;
-}
-.contact-box .contact-form .checkbox-li .checkbox {
-  width: auto;
-  margin-right: 8px;
-  margin-bottom: 48px;
-}
-.contact-box .contact-form .btn-box {
-  display: flex;
-  justify-content: center;
-}
-.contact-box .contact-form .click-btn {
-  padding: 16px 176px;
-  cursor: pointer;
-  background: #AA0601;
-  border: 0px solid;
-  width: auto;
-  text-align: center;
-  color: #FFFFFF;
-  font-size: 16px;
-  line-height: 24px;
-  margin: 0;
+  margin-bottom: 32px;
 }
 
 .footer {
@@ -517,145 +292,65 @@ body {
   .container {
     max-width: 347px;
   }
-  .banner {
-    background-size: 375px 396px;
-    height: 396px;
-  }
-  .banner .bannerTextBox {
-    padding-top: 144px;
-  }
-  .banner .bannerTextBox h1 {
-    font-size: 16px;
-    line-height: 24px;
-  }
-  .banner .bannerTextBox p {
+  .faq h2 {
     font-size: 24px;
     line-height: 36px;
-  }
-  .homeSection-box .homeSection {
-    padding: 40px 0;
-  }
-  .homeSection-box .homeSection h2 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .homeSection-box .content .item {
-    width: 100%;
-  }
-  .homeSection-box .mb48 {
-    margin-bottom: 48px;
-  }
-  .sectionContent {
-    margin-bottom: 48px;
-  }
-  .sectionContent .contentImg .content-item img {
-    width: 348px;
-  }
-  .sectionContent h2 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .content-glasses {
-    height: 820px;
-    padding-top: 40px;
-  }
-  .content-glasses h2 {
-    padding-top: 0;
-    font-size: 24px;
-    line-height: 36px;
+    margin-top: 40px;
     margin-bottom: 24px;
   }
-  .content-glasses .glasses-box .glasses-item img {
-    width: 348px;
-    height: 240px;
-  }
-  .customer {
-    margin-bottom: 40px;
-  }
-  .customer h2 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-  .customer .customer-box {
-    margin-bottom: 0;
-  }
-  .customer .customer-box .customer-item-box {
-    margin-bottom: 16px;
-    width: auto;
-  }
-  .customer .customer-box .customer-item-box .customer-img img {
-    width: 348px;
-  }
-  .contact-box {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  .contact-box h2 {
-    font-size: 24px;
-    line-height: 36px;
+  .faq-ans {
     margin-bottom: 24px;
   }
-  .contact-box .contact-form {
-    width: 348px;
-  }
-  .contact-box .contact-form input {
-    width: 348px;
-    padding: 6px 0;
-  }
-  .contact-box .contact-form textarea {
-    width: 348px;
-    padding: 6px 0;
-  }
-  .footer {
-    padding-top: 24px;
-  }
-  .footer .footerNav {
-    padding-bottom: 24px;
-    border-bottom: 1px solid white;
-    margin-bottom: 16px;
-  }
-  .footer .footerNav .menu {
-    display: none;
-  }
-  .footer .footerNav .menuImg {
-    justify-content: flex-end;
-    width: 100px;
-    height: 54px;
-  }
-  .footer .footerNav .menuImg img {
-    width: 24px;
-  }
-  .footer .footerNav .footerContact-m li {
-    margin-bottom: 8px;
-  }
-  .footer .footerNav .footerContact-m li i {
-    color: white;
-  }
-  .footer .footerNav .footerContact-m li a {
-    text-decoration: none;
-    color: white;
-  }
-  .footer .footerContent {
-    display: none;
-  }
-  .footer .footerContent a {
-    font-size: 16px;
-    line-height: 24px;
-  }
-  .footer .footerContent .font-awesome {
-    font-size: 24px;
-  }
-  .footer .footerCopyright {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .footer .footerCopyright p {
-    margin-bottom: 8px;
-  }
-  .footer .footerCopyright .copyright-ul {
-    flex-direction: column;
-  }
-  .footer .footerCopyright .copyright-ul li {
-    margin-bottom: 8px;
-  }
+}
+.footer {
+  padding-top: 24px;
+}
+.footer .footerNav {
+  padding-bottom: 24px;
+  border-bottom: 1px solid white;
+  margin-bottom: 16px;
+}
+.footer .footerNav .menu {
+  display: none;
+}
+.footer .footerNav .menuImg {
+  justify-content: flex-end;
+  width: 100px;
+  height: 54px;
+}
+.footer .footerNav .menuImg img {
+  width: 24px;
+}
+.footer .footerNav .footerContact-m li {
+  margin-bottom: 8px;
+}
+.footer .footerNav .footerContact-m li i {
+  color: white;
+}
+.footer .footerNav .footerContact-m li a {
+  text-decoration: none;
+  color: white;
+}
+.footer .footerContent {
+  display: none;
+}
+.footer .footerContent a {
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer .footerContent .font-awesome {
+  font-size: 24px;
+}
+.footer .footerCopyright {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer .footerCopyright p {
+  margin-bottom: 8px;
+}
+.footer .footerCopyright .copyright-ul {
+  flex-direction: column;
+}
+.footer .footerCopyright .copyright-ul li {
+  margin-bottom: 8px;
 }/*# sourceMappingURL=all.css.map */
