@@ -1,20 +1,20 @@
 @mixin pad{
-    @media (max-width:767px){
+    @media (max-width:992px){
         @content;
     }
 }
 @mixin header{
-    @media(min-width:767px){
+    @media(min-width:992px){
         @content;
     }
 }
 @mixin mobile{
-    @media (max-width:374px){
+    @media (max-width:575px){
         @content;
     }
 }
 @mixin footer{
-    @media (min-width:376px){
+    @media (min-width:577px){
         @content;
     }
 }
@@ -65,7 +65,7 @@
         max-width: 720px;
     }
     .banner{
-        background-size: 768px 787px;
+        background-size: 992px 787px;
         background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png");
         height: 787px;
     }
@@ -104,17 +104,16 @@
                 }
         }
     }
-    .customer-item-box{
-        .customer-img img{
-            width: 336px;
+    .customer{
+        &-item{
+            width: 48%;
         }
-        display: flex;
-        width: 48%;
-        justify-content: center;
+        .customer-item-box{
+            justify-content: space-between;
+        }
     }
-    .mb24{
-        margin-bottom: 24px;
-    }
+    
+    
     .contact-box{
         .contact-form{
             width: 576px;
@@ -133,6 +132,15 @@
             }
         }
     }
+    .footer{
+        .footerNav{
+            .menu{
+                li{
+                    padding: 0 15px;
+                }
+            }
+        }
+    }
 }
 
 @include mobile{
@@ -145,7 +153,7 @@
         max-width: 347px;
     }
     .banner{
-        background-size: 375px 396px;
+        background-size: 576px 396px;
         height: 396px;
         .bannerTextBox{
             padding-top: 144px;
@@ -207,6 +215,9 @@
     }
     .customer{
         margin-bottom: 40px;
+        &-item{
+            width: 100%;
+        }
         h2{
             font-size: 24px;
             line-height: 36px;
@@ -216,15 +227,11 @@
                 .customer-item-box{
                 margin-bottom: 16px;
                 width: auto;
-                .customer-img img{
-                    width: 348px;
-                }
                 }
         }
     }
     .contact-box{
         padding-top: 40px;
-        padding-bottom: 40px;
         h2{
             font-size: 24px;
             line-height: 36px;
@@ -243,19 +250,9 @@
         }
         
     }
-    .faq{
-        h2{
-            font-size: 24px;
-            line-height: 36px;
-            margin-top: 40px;
-            margin-bottom: 24px;
-        }
-        &-ans{
-            margin-bottom: 24px;
-        }
+    .checkbox-li{
+        margin-bottom: 16px;
     }
-        
-    
     .footer{
         padding-top: 24px;
         .footerNav{
@@ -264,11 +261,14 @@
             margin-bottom: 16px;
         .menu{
             display: none;
+            
         }
         .menuImg{
             justify-content: flex-end;
-            width: 100px;
             height: 54px;
+            li{
+                padding: 0 10px;
+            }
             img{
                 width: 24px;
             }
@@ -310,5 +310,5 @@
         }
     }
 }
-}
+    }
     

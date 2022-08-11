@@ -86,7 +86,6 @@ body {
 .header .headerMenu ul {
   display: flex;
   align-items: center;
-  width: 428px;
   justify-content: space-between;
 }
 .header .headerMenu ul li a {
@@ -94,10 +93,11 @@ body {
   line-height: 30px;
   text-decoration: none;
   color: white;
+  padding: 25px;
 }
 
 .banner {
-  background-size: 1920px 787px;
+  background-size: cover;
   background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header.png");
   height: 787px;
 }
@@ -157,7 +157,7 @@ body {
   width: 100px;
   margin-bottom: 24px;
 }
-.homeSection-box .content .item .itemUp p {
+.homeSection-box .content .item .itemUp h3 {
   font-size: 24px;
   line-height: 36px;
   color: #650300;
@@ -187,16 +187,13 @@ body {
 .sectionContent .contentImg {
   display: flex;
   flex-wrap: wrap;
+  gap: 3.3%;
 }
 .sectionContent .contentImg .content-item {
-  width: 33.3%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 30%;
 }
 .sectionContent .contentImg .content-item img {
   margin-bottom: 8px;
-  width: 416px;
 }
 .sectionContent .contentImg .content-item p {
   font-size: 48px;
@@ -242,7 +239,7 @@ body {
 .customer {
   margin-bottom: 80px;
 }
-.customer .customer-box {
+.customer-box {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -256,20 +253,26 @@ body {
   font-weight: bold;
   margin-bottom: 48px;
 }
-.customer .customer-item {
+.customer-item {
+  width: 24%;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1607843137);
 }
-.customer .customer-item img {
-  width: 306px;
+.customer-item-box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
 }
-.customer .customer-text {
-  height: 173px;
+.customer-text {
   padding: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.customer .customer-text .date {
+.customer-text p {
+  margin: 20px 0;
+}
+.customer-text .date {
   font-size: 14px;
   line-height: 21px;
   color: #707070;
@@ -282,7 +285,6 @@ body {
 .contact-box {
   background: #FBF2F2;
   padding-top: 80px;
-  padding-bottom: 80px;
 }
 .contact-box h2 {
   font-size: 48px;
@@ -310,7 +312,6 @@ body {
   background-color: transparent;
   border: 1px solid #000000;
   padding: 6px 12px;
-  margin-top: 8px 0px 16px 0px;
   margin-top: 8px;
   margin-bottom: 16px;
 }
@@ -319,7 +320,6 @@ body {
   background-color: transparent;
   border: 1px solid #000000;
   padding: 6px 12px;
-  margin-top: 8px 0px 16px 0px;
   margin-top: 8px;
   margin-bottom: 16px;
 }
@@ -329,11 +329,11 @@ body {
 .contact-box .contact-form .checkbox-li .checkbox {
   width: auto;
   margin-right: 8px;
-  margin-bottom: 48px;
 }
 .contact-box .contact-form .btn-box {
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .contact-box .contact-form .click-btn {
   padding: 16px 176px;
@@ -346,6 +346,10 @@ body {
   font-size: 16px;
   line-height: 24px;
   margin: 0;
+}
+
+.mb24 {
+  margin-bottom: 24px;
 }
 
 .footer {
@@ -361,8 +365,10 @@ body {
 }
 .footer .footerNav .menu {
   display: flex;
-  width: 464px;
   justify-content: space-between;
+}
+.footer .footerNav .menu li {
+  padding: 0 23px;
 }
 .footer .footerNav .menu li a {
   text-decoration: none;
@@ -372,8 +378,10 @@ body {
 }
 .footer .footerNav .menuImg {
   display: flex;
-  width: 208px;
   justify-content: space-between;
+}
+.footer .footerNav .menuImg li {
+  padding: 0 20px;
 }
 .footer .footerNav .menuImg img {
   width: 48px;
@@ -443,17 +451,17 @@ body {
   margin-bottom: 32px;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 992px) {
   .headerMenuRWD {
     display: none;
   }
 }
-@media (min-width: 376px) {
+@media (min-width: 577px) {
   .footerContact-m {
     display: none;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 992px) {
   .header .header-box {
     justify-content: center;
   }
@@ -480,7 +488,7 @@ body {
     max-width: 720px;
   }
   .banner {
-    background-size: 768px 787px;
+    background-size: 992px 787px;
     background-image: url("https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week3-4/home-header-sm.png");
     height: 787px;
   }
@@ -509,16 +517,11 @@ body {
   .content-glasses .glasses-box .mb24 {
     margin-bottom: 24px;
   }
-  .customer-item-box {
-    display: flex;
+  .customer-item {
     width: 48%;
-    justify-content: center;
   }
-  .customer-item-box .customer-img img {
-    width: 336px;
-  }
-  .mb24 {
-    margin-bottom: 24px;
+  .customer .customer-item-box {
+    justify-content: space-between;
   }
   .contact-box .contact-form {
     width: 576px;
@@ -536,8 +539,11 @@ body {
   .contact-box .contact-form .click-btn {
     padding: 16px 136px;
   }
+  .footer .footerNav .menu li {
+    padding: 0 15px;
+  }
 }
-@media (max-width: 374px) {
+@media (max-width: 575px) {
   .header .headerMenu ul {
     display: none;
   }
@@ -545,7 +551,7 @@ body {
     max-width: 347px;
   }
   .banner {
-    background-size: 375px 396px;
+    background-size: 576px 396px;
     height: 396px;
   }
   .banner .bannerTextBox {
@@ -599,6 +605,9 @@ body {
   .customer {
     margin-bottom: 40px;
   }
+  .customer-item {
+    width: 100%;
+  }
   .customer h2 {
     font-size: 24px;
     line-height: 36px;
@@ -610,12 +619,8 @@ body {
     margin-bottom: 16px;
     width: auto;
   }
-  .customer .customer-box .customer-item-box .customer-img img {
-    width: 348px;
-  }
   .contact-box {
     padding-top: 40px;
-    padding-bottom: 40px;
   }
   .contact-box h2 {
     font-size: 24px;
@@ -633,14 +638,8 @@ body {
     width: 348px;
     padding: 6px 0;
   }
-  .faq h2 {
-    font-size: 24px;
-    line-height: 36px;
-    margin-top: 40px;
-    margin-bottom: 24px;
-  }
-  .faq-ans {
-    margin-bottom: 24px;
+  .checkbox-li {
+    margin-bottom: 16px;
   }
   .footer {
     padding-top: 24px;
@@ -655,8 +654,10 @@ body {
   }
   .footer .footerNav .menuImg {
     justify-content: flex-end;
-    width: 100px;
     height: 54px;
+  }
+  .footer .footerNav .menuImg li {
+    padding: 0 10px;
   }
   .footer .footerNav .menuImg img {
     width: 24px;
